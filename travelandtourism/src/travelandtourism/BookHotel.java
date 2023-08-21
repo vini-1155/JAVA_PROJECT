@@ -2,9 +2,6 @@ package travelandtourism;
 
 
 import java.awt.*;
-import java.awt.EventQueue;
-
-
 import java.awt.Font;
 import java.awt.Image;
 import java.sql.*;	
@@ -165,7 +162,8 @@ public class BookHotel extends JFrame implements ActionListener{
                             Conn c = new Conn();
                            
                             try{
-	    			String s1 = c1.getSelectedItem(); 
+	    			@SuppressWarnings("unused")
+					String s1 = c1.getSelectedItem(); 
                                 
                                 String q1 = "select * from hotel where name = '"+c1.getSelectedItem()+"'";
                                 ResultSet rs = c.st.executeQuery(q1);
@@ -211,7 +209,8 @@ public class BookHotel extends JFrame implements ActionListener{
                            
                           
                             try{
-	    			String s1 = c1.getSelectedItem(); 
+	    			@SuppressWarnings("unused")
+					String s1 = c1.getSelectedItem(); 
                                 
                                 String q1 = "insert into bookHotel values('"+l1.getText()+"', '"+c1.getSelectedItem()+"', '"+t1.getText()+"', '"+t2.getText()+"', '"+c2.getSelectedItem()+"', '"+c3.getSelectedItem()+"', '"+l2.getText()+"', '"+l3.getText()+"', '"+l4.getText()+"', '"+l5.getText()+"')";
                                 c.st.executeUpdate(q1);

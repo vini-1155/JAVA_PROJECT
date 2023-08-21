@@ -60,7 +60,8 @@ public class About extends JFrame implements ActionListener {
         Font f1 = new Font("RALEWAY", Font.BOLD, 16);
         t1.setFont(f1);
 
-        Container contentPane = this.getContentPane();
+        @SuppressWarnings("unused")
+		Container contentPane = this.getContentPane();
         t1 = new TextArea();
 
         JLabel l1 = new JLabel("About Project");

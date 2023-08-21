@@ -68,7 +68,8 @@ public class Destination extends JFrame implements Runnable {
 
         ImageIcon i4 = new ImageIcon(ClassLoader.getSystemResource("dest2.png"));
         Image i5 = i4.getImage().getScaledInstance(900, 700, Image.SCALE_DEFAULT);
-        ImageIcon i6 = new ImageIcon(i5);
+        @SuppressWarnings("unused")
+		ImageIcon i6 = new ImageIcon(i5);
         l3 = new JLabel(i4);
         l3.setBounds(0, 0, 900, 700);
         add(l3);

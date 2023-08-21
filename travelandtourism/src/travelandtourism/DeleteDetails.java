@@ -51,7 +51,8 @@ public class DeleteDetails extends JFrame {
                 
                 c1 = new Choice();
                 c1.add(username);
-                Conn c = new Conn();
+                @SuppressWarnings("unused")
+				Conn c = new Conn();
 //                try{
 //
 //                    ResultSet rs = c.st.executeQuery("select * from customer");

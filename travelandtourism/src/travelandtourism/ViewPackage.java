@@ -7,6 +7,7 @@ import java.sql.*;
 import javax.swing.*;
 import java.awt.event.ActionListener;
 import java.awt.event.ActionEvent;
+@SuppressWarnings("serial")
 public class ViewPackage extends JFrame {
 	private JPanel contentPane;
         Choice c1;

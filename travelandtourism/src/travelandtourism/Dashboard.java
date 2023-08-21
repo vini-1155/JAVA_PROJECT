@@ -198,6 +198,7 @@ public class Dashboard extends JFrame implements ActionListener{
 		new Dashboard("vi");
 	}
 
+	@SuppressWarnings("deprecation")
 	@Override
 	public void actionPerformed(ActionEvent e) {
 		if(e.getSource() == addpd) {

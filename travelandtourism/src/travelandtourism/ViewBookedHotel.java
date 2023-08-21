@@ -1,10 +1,9 @@
 package travelandtourism;
 
-import java.awt.BorderLayout;
+
 import java.awt.*;
 import java.awt.EventQueue;
 
-import javax.swing.border.EmptyBorder;
 
 import java.awt.Font;
 import java.awt.Image;
@@ -12,6 +11,7 @@ import java.sql.*;
 import javax.swing.*;
 import java.awt.event.ActionListener;
 import java.awt.event.ActionEvent;
+@SuppressWarnings("serial")
 public class ViewBookedHotel extends JFrame {
 	private JPanel contentPane;
         Choice c1;

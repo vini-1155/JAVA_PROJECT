@@ -8,6 +8,7 @@ import javax.swing.*;
 import java.awt.event.ActionListener;
 import java.awt.event.ActionEvent;
 
+@SuppressWarnings("serial")
 public class BookPackage extends JFrame {
 	private JPanel contentPane;
         JTextField t1,t2;
@@ -142,7 +143,8 @@ public class BookPackage extends JFrame {
 		public void actionPerformed(ActionEvent e) {
 		Conn c = new Conn();          
         try{
-	    String s1 = c1.getSelectedItem(); 
+	    @SuppressWarnings("unused")
+		String s1 = c1.getSelectedItem(); 
                                 
 	    String q1 = "insert into bookPackage values('"+username+"', '"+c1.getSelectedItem()+"', '"+t1.getText()+"', '"+l2.getText()+"', '"+l3.getText()+"', '"+l4.getText()+"', '"+l5.getText()+"')";
 	    c.st.executeUpdate(q1);
