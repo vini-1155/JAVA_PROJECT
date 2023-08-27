@@ -14,9 +14,6 @@ Welcome to my Snake Game Java project! This classic arcade game showcases my Jav
 
 Check out the live demo of the Snake Game [here](#https://drive.google.com/file/d/1LSCyzijSx0Ulmih_1lm7fbTkJ_pa224O/view?usp=sharing).
 
-## Screenshots
-
-![Gameplay Screenshot](Snakegam/src/snake/icons/Snake.jpg)
 
 ## Getting Started
 
