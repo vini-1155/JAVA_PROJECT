@@ -60,8 +60,8 @@ public class Board extends JPanel implements ActionListener{
 		dots = 3;
 		
 		for(int i = 0; i<dots; i++) {		
-			y[i] = 50;					// y[0,1,2] = 50
-			x[i] = 50 - i * DOT_SIZE;  	// x[0,1,2] = 50, 40, 30
+			y[i] = 50;					
+			x[i] = 50 - i * DOT_SIZE;  	
 		}
 		
 		locateApple();
@@ -163,21 +163,7 @@ public class Board extends JPanel implements ActionListener{
 		}
 		if(y[0] >= 300 || x[0] >= 300 || y[0] < 0 || x[0] < 0) {
 			inGame = false;
-		}
-		
-//		if() {
-//			inGame = false;
-//		}
-//		
-//		if() {
-//			inGame = false;
-//		}
-//		if() {
-//			inGame = false;
-//		}
-		
-		
-		
+		}	
 		if(!inGame) {
 			timer.stop();
 		}
