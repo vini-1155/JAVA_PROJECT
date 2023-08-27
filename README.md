@@ -16,7 +16,7 @@ Check out the live demo of the Snake Game [here](#https://drive.google.com/file/
 
 ## Screenshots
 
-![Gameplay Screenshot](screenshots/gameplay.png)
+![Gameplay Screenshot](Snakegam/src/snake/icons)
 
 ## Getting Started
 
